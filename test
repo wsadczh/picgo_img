@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 233v2.com_198.211.33.78, server: 198.211.33.78, port: 21463, type: vmess, uuid: e0758d6c-d3c4-42bc-8336-18960da7aaa0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 233v2.com_198.211.33.78, server: 198.211.33.78, port: 21463, type: vmess, uuid: 725d0d81-9f07-4dfb-b432-7cca4803906b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
