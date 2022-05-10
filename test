@@ -9,8 +9,6 @@ proxies:
 proxy-groups:
   - name: 🚀 节点选择
     type: select
-    interval: 300
-    tolerance: 50
     proxies:
       - ♻️ 自动选择
       - DIRECT
@@ -18,7 +16,8 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 0
+   interval: 300
+    tolerance: 50
     proxies:
       - 233v2.com_198.211.33.78
   - name: 🌍 国外媒体
