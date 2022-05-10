@@ -9,7 +9,8 @@ proxies:
 proxy-groups:
   - name: 🚀 节点选择
     type: select
-    interval: 0
+    interval: 300
+    tolerance: 50
     proxies:
       - ♻️ 自动选择
       - DIRECT
